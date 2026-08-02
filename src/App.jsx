@@ -4,7 +4,8 @@ export default function App() {
   return (
     <main>
       <h1>SyncBoard</h1>
-      <TaskCard />
+      <TaskCard title="Design login" assignee="Nimali" due="Friday" done={false} />
+      <TaskCard title="Fix Bugs" assignee="John Doe" due="Monday" done={true} />
     </main>
   )
 }
